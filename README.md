@@ -10,9 +10,40 @@ $ command curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 #### Install RVM
 ```bash
 $ \curl -L https://get.rvm.io | bash -s stable
-$ rvm
+$ rvm -v
 ```
 If You Already Have RVM Installed
 ```bash
 $ rvm get stable --autolibs=enable
+```
+
+### Command
+#### rvm list
+List Ruby interpreters you've already installed
+```bash
+$ rvm list
+```
+#### rvm list known
+List Ruby interpreters available for installation
+```bash
+$ rvm list known
+```
+#### rvm install
+Install ruby version
+```bash
+$ rvm install 2.4.1
+```
+#### rvm use
+```bash
+$ rvm use 2.4.1
+$ rvm --default use 2.4.1
+```
+#### rvm default
+Use the user set default ruby
+```bash
+$ rvm default
+```
+#### rvm uninstall
+```bash
+$  rvm uninstall 2.0.0
 ```
