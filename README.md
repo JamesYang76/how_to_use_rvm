@@ -47,3 +47,36 @@ $ rvm default
 ```bash
 $  rvm uninstall 2.0.0
 ```
+#### rvm gemset list
+```bash
+ $ rvm gemset list
+ $ rvm gemset use global
+ $ gem list
+```
+## Gem
+#### gem list
+The list command shows your locally installed gems:
+```bash
+$ gem list
+```
+#### gem update
+```bash
+$ gem outdated
+$ gem update
+```
+#### gem install
+```bash
+$ gem install bundler
+$ gem install nokogiri
+$ gem install rails --version=3.2.18
+$ gem install rails
+```
+ #### gem which
+ ```bash
+ $  gem which bundler
+ ```
+ 
+ #### gem uninstall
+ ```bash
+ $ gem uninstall nokogiri
+ ```
