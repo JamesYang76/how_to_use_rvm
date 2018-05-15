@@ -48,6 +48,8 @@ $ rvm default
 $  rvm uninstall 2.0.0
 ```
 #### rvm gemset list
+Two interesting gemsets are the global (~/.rvm/gemsets/global.gems)\
+default (~/.rvm/gemsets/default.gems) gemsets.
 ```bash
  $ rvm gemset list
  $ rvm gemset use global
@@ -80,3 +82,4 @@ $ gem install rails
  ```bash
  $ gem uninstall nokogiri
  ```
+ 
