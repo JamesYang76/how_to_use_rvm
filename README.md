@@ -72,6 +72,8 @@ $ gem install bundler
 $ gem install nokogiri
 $ gem install rails --version=3.2.18
 $ gem install rails
+
+$ bundle install --without production
 ```
  #### gem which
  ```bash
