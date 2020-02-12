@@ -16,8 +16,16 @@ If You Already Have RVM Installed
 ```bash
 $ rvm get stable --autolibs=enable
 ```
+if you fails with `GPG signature verification failed for...`
+```bash
+gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB
+```
 
 ### Command
+#### rvm info
+```bash
+$rvm info
+```
 #### rvm list
 List Ruby interpreters you've already installed
 ```bash
