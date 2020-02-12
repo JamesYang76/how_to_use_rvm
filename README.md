@@ -93,3 +93,15 @@ $ bundle install --without production
  $ gem uninstall nokogiri
  ```
  
+## bundler
+ ```bash
+$ gem install bundler -v 1.0.10
+$ bundle _1.0.10_ install
+
+$ gem list | grep "bundle"
+# `gem list` shows all gems under ruby version, but `bundle show` only shows gems under current project
+$ bundle show
+$ bundle show json
+$ gem which json
+$ bundle info rails
+```
