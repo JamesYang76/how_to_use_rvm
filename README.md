@@ -55,13 +55,16 @@ $ rvm default
 ```bash
 $  rvm uninstall 2.0.0
 ```
-#### rvm gemset list
+#### rvm gemset
 Two interesting gemsets are the global (~/.rvm/gemsets/global.gems)\
 default (~/.rvm/gemsets/default.gems) gemsets.
 ```bash
  $ rvm gemset list
- $ rvm gemset use global
+ 
  $ gem list
+ $ rvm gemset create new_gemset
+ $ rvm gemset use new_gemset
+ $ rvm gemset delete new_gemset
 ```
 ## Gem
 #### gem list
@@ -99,7 +102,7 @@ $ gem install bundler -v 1.0.10
 $ bundle _1.0.10_ install
 
 $ gem list | grep "bundle"
-# `gem list` shows all gems under ruby version, but `bundle show` only shows gems under current project
+# `gem list` shows all gems under gemset, but `bundle show` only shows gems under current project
 $ bundle show
 $ bundle show json
 $ gem which json
